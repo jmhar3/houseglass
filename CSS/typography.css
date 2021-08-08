@@ -15,10 +15,11 @@
 
 h1, h2, h3, h4, h5, p, div, a, button {
     font-family: 'Glamour-Regular';
+    font-weight: normal;
     color: rgb(17, 97, 100);
 }
 
-h4, div, a {
+div, a {
     font-family: 'Gaffa';
 }
 

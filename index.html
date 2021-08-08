@@ -16,17 +16,18 @@
     <script src="./JS/background.js"></script>
     <script src="./JS/colourPalette.js"></script>
     <script src="./JS/homepage.js"></script>
+    <script src="./JS/menu.js"></script>
 </head>
 
 <body>
     <header>
         <div id="menu-head">
-            <img src="./images/N&G.jpeg" id="user-icon">
-            <a href="#menu">            <img src="./images/list.png"></a>
-            <h3 class="hidden">User</h3>
-            <h5 class="hidden">Logout</h5>
+            <a href="#user">            <img src="./images/N&G.jpeg" id="user-icon"></a>
+            <a href="#menu">            <img src="./images/list.png" id="menu-button"></a>
+            <h3 class="user hidden">You are not signed in.</h3>
+            <h5 class="signup hidden">Sign Up Now</h5>
         </div>
-        <ul>
+        <ul class="navbar hidden">
             <li>Saved Swatches</li>
             <li>Your Swatches</li>
             <li>Your Account</li>
@@ -36,202 +37,188 @@
     </header>
 
     <main>
-        <div class="swatch-card">
-            <h4 class="user-name">name</h4>
-            <h4 class="like-button">❤</h4>
-            <div>
-                <div class="colour-one"></div>
-                <div class="colour-two"></div>
-                <div class="colour-three"></div>
-                <div class="colour-four"></div>
-                <div class="colour-five"></div>
+        <div id="featured-swatches">
+            <div class="swatch-card">
+                <div class="card-head">
+                    <h4 class="user-name">name</h4>
+                    <h4 class="like-button">❤</h4>
+                </div>
+                <div class="swatch-colours">
+                    <div class="colour-one"></div>
+                    <div class="colour-two"></div>
+                    <div class="colour-three"></div>
+                    <div class="colour-four"></div>
+                    <div class="colour-five"></div>
+                </div>
             </div>
-        </div>
-        <div class="swatch-card">
-            <h4 class="user-name">name</h4>
-            <h4 class="like-button">❤</h4>
-            <div>
-                <div class="colour-one"></div>
-                <div class="colour-two"></div>
-                <div class="colour-three"></div>
-                <div class="colour-four"></div>
-                <div class="colour-five"></div>
+            <div class="swatch-card">
+                <div class="card-head">
+                    <h4 class="user-name">name</h4>
+                    <h4 class="like-button">❤</h4>
+                </div>
+                <div class="swatch-colours">
+                    <div class="colour-one"></div>
+                    <div class="colour-two"></div>
+                    <div class="colour-three"></div>
+                    <div class="colour-four"></div>
+                    <div class="colour-five"></div>
+                </div>
             </div>
-        </div>
-        <div class="swatch-card">
-            <h4 class="user-name">name</h4>
-            <h4 class="like-button">❤</h4>
-            <div>
-                <div class="colour-one"></div>
-                <div class="colour-two"></div>
-                <div class="colour-three"></div>
-                <div class="colour-four"></div>
-                <div class="colour-five"></div>
+            <div class="swatch-card">
+                <div class="card-head">
+                    <h4 class="user-name">name</h4>
+                    <h4 class="like-button">❤</h4>
+                </div>
+                <div class="swatch-colours">
+                    <div class="colour-one"></div>
+                    <div class="colour-two"></div>
+                    <div class="colour-three"></div>
+                    <div class="colour-four"></div>
+                    <div class="colour-five"></div>
+                </div>
             </div>
-        </div>
-        <div class="swatch-card">
-            <h4 class="user-name">name</h4>
-            <h4 class="like-button">❤</h4>
-            <div>
-                <div class="colour-one"></div>
-                <div class="colour-two"></div>
-                <div class="colour-three"></div>
-                <div class="colour-four"></div>
-                <div class="colour-five"></div>
+            <div class="swatch-card">
+                <div class="card-head">
+                    <h4 class="user-name">name</h4>
+                    <h4 class="like-button">❤</h4>
+                </div>
+                <div class="swatch-colours">
+                    <div class="colour-one"></div>
+                    <div class="colour-two"></div>
+                    <div class="colour-three"></div>
+                    <div class="colour-four"></div>
+                    <div class="colour-five"></div>
+                </div>
             </div>
-        </div>
-        <div class="swatch-card">
-            <h4 class="user-name">name</h4>
-            <h4 class="like-button">❤</h4>
-            <div>
-                <div class="colour-one"></div>
-                <div class="colour-two"></div>
-                <div class="colour-three"></div>
-                <div class="colour-four"></div>
-                <div class="colour-five"></div>
+            <div class="swatch-card">
+                <div class="card-head">
+                    <h4 class="user-name">name</h4>
+                    <h4 class="like-button">❤</h4>
+                </div>
+                <div class="swatch-colours">
+                    <div class="colour-one"></div>
+                    <div class="colour-two"></div>
+                    <div class="colour-three"></div>
+                    <div class="colour-four"></div>
+                    <div class="colour-five"></div>
+                </div>
             </div>
-        </div>
-        <div class="swatch-card">
-            <h4 class="user-name">name</h4>
-            <h4 class="like-button">❤</h4>
-            <div>
-                <div class="colour-one"></div>
-                <div class="colour-two"></div>
-                <div class="colour-three"></div>
-                <div class="colour-four"></div>
-                <div class="colour-five"></div>
+            <div class="swatch-card">
+                <div class="card-head">
+                    <h4 class="user-name">name</h4>
+                    <h4 class="like-button">❤</h4>
+                </div>
+                <div class="swatch-colours">
+                    <div class="colour-one"></div>
+                    <div class="colour-two"></div>
+                    <div class="colour-three"></div>
+                    <div class="colour-four"></div>
+                    <div class="colour-five"></div>
+                </div>
             </div>
-        </div>
-        <div class="swatch-card">
-            <h4 class="user-name">name</h4>
-            <h4 class="like-button">❤</h4>
-            <div>
-                <div class="colour-one"></div>
-                <div class="colour-two"></div>
-                <div class="colour-three"></div>
-                <div class="colour-four"></div>
-                <div class="colour-five"></div>
+            <div class="swatch-card">
+                <div class="card-head">
+                    <h4 class="user-name">name</h4>
+                    <h4 class="like-button">❤</h4>
+                </div>
+                <div class="swatch-colours">
+                    <div class="colour-one"></div>
+                    <div class="colour-two"></div>
+                    <div class="colour-three"></div>
+                    <div class="colour-four"></div>
+                    <div class="colour-five"></div>
+                </div>
             </div>
-        </div>
-        <div class="swatch-card">
-            <h4 class="user-name">name</h4>
-            <h4 class="like-button">❤</h4>
-            <div>
-                <div class="colour-one"></div>
-                <div class="colour-two"></div>
-                <div class="colour-three"></div>
-                <div class="colour-four"></div>
-                <div class="colour-five"></div>
+            <div class="swatch-card">
+                <div class="card-head">
+                    <h4 class="user-name">name</h4>
+                    <h4 class="like-button">❤</h4>
+                </div>
+                <div class="swatch-colours">
+                    <div class="colour-one"></div>
+                    <div class="colour-two"></div>
+                    <div class="colour-three"></div>
+                    <div class="colour-four"></div>
+                    <div class="colour-five"></div>
+                </div>
             </div>
-        </div>
-        <div class="swatch-card">
-            <h4 class="user-name">name</h4>
-            <h4 class="like-button">❤</h4>
-            <div>
-                <div class="colour-one"></div>
-                <div class="colour-two"></div>
-                <div class="colour-three"></div>
-                <div class="colour-four"></div>
-                <div class="colour-five"></div>
+            <div class="swatch-card">
+                <div class="card-head">
+                    <h4 class="user-name">name</h4>
+                    <h4 class="like-button">❤</h4>
+                </div>
+                <div class="swatch-colours">
+                    <div class="colour-one"></div>
+                    <div class="colour-two"></div>
+                    <div class="colour-three"></div>
+                    <div class="colour-four"></div>
+                    <div class="colour-five"></div>
+                </div>
             </div>
-        </div>
-        <div class="swatch-card">
-            <h4 class="user-name">name</h4>
-            <h4 class="like-button">❤</h4>
-            <div>
-                <div class="colour-one"></div>
-                <div class="colour-two"></div>
-                <div class="colour-three"></div>
-                <div class="colour-four"></div>
-                <div class="colour-five"></div>
+            <div class="swatch-card">
+                <div class="card-head">
+                    <h4 class="user-name">name</h4>
+                    <h4 class="like-button">❤</h4>
+                </div>
+                <div class="swatch-colours">
+                    <div class="colour-one"></div>
+                    <div class="colour-two"></div>
+                    <div class="colour-three"></div>
+                    <div class="colour-four"></div>
+                    <div class="colour-five"></div>
+                </div>
             </div>
-        </div>
-        <div class="swatch-card">
-            <h4 class="user-name">name</h4>
-            <h4 class="like-button">❤</h4>
-            <div>
-                <div class="colour-one"></div>
-                <div class="colour-two"></div>
-                <div class="colour-three"></div>
-                <div class="colour-four"></div>
-                <div class="colour-five"></div>
+            <div class="swatch-card">
+                <div class="card-head">
+                    <h4 class="user-name">name</h4>
+                    <h4 class="like-button">❤</h4>
+                </div>
+                <div class="swatch-colours">
+                    <div class="colour-one"></div>
+                    <div class="colour-two"></div>
+                    <div class="colour-three"></div>
+                    <div class="colour-four"></div>
+                    <div class="colour-five"></div>
+                </div>
             </div>
-        </div>
-        <div class="swatch-card">
-            <h4 class="user-name">name</h4>
-            <h4 class="like-button">❤</h4>
-            <div>
-                <div class="colour-one"></div>
-                <div class="colour-two"></div>
-                <div class="colour-three"></div>
-                <div class="colour-four"></div>
-                <div class="colour-five"></div>
+            <div class="swatch-card">
+                <div class="card-head">
+                    <h4 class="user-name">name</h4>
+                    <h4 class="like-button">❤</h4>
+                </div>
+                <div class="swatch-colours">
+                    <div class="colour-one"></div>
+                    <div class="colour-two"></div>
+                    <div class="colour-three"></div>
+                    <div class="colour-four"></div>
+                    <div class="colour-five"></div>
+                </div>
             </div>
-        </div>
-        <div class="swatch-card">
-            <h4 class="user-name">name</h4>
-            <h4 class="like-button">❤</h4>
-            <div>
-                <div class="colour-one"></div>
-                <div class="colour-two"></div>
-                <div class="colour-three"></div>
-                <div class="colour-four"></div>
-                <div class="colour-five"></div>
+            <div class="swatch-card">
+                <div class="card-head">
+                    <h4 class="user-name">name</h4>
+                    <h4 class="like-button">❤</h4>
+                </div>
+                <div class="swatch-colours">
+                    <div class="colour-one"></div>
+                    <div class="colour-two"></div>
+                    <div class="colour-three"></div>
+                    <div class="colour-four"></div>
+                    <div class="colour-five"></div>
+                </div>
             </div>
-        </div>
-        <div class="swatch-card">
-            <h4 class="user-name">name</h4>
-            <h4 class="like-button">❤</h4>
-            <div>
-                <div class="colour-one"></div>
-                <div class="colour-two"></div>
-                <div class="colour-three"></div>
-                <div class="colour-four"></div>
-                <div class="colour-five"></div>
-            </div>
-        </div>
-        <div class="swatch-card">
-            <h4 class="user-name">name</h4>
-            <h4 class="like-button">❤</h4>
-            <div>
-                <div class="colour-one"></div>
-                <div class="colour-two"></div>
-                <div class="colour-three"></div>
-                <div class="colour-four"></div>
-                <div class="colour-five"></div>
-            </div>
-        </div>
-        <div class="swatch-card">
-            <h4 class="user-name">name</h4>
-            <h4 class="like-button">❤</h4>
-            <div>
-                <div class="colour-one"></div>
-                <div class="colour-two"></div>
-                <div class="colour-three"></div>
-                <div class="colour-four"></div>
-                <div class="colour-five"></div>
-            </div>
-        </div>
-        <div class="swatch-card">
-            <h4 class="user-name">name</h4>
-            <h4 class="like-button">❤</h4>
-            <div>
-                <div class="colour-one"></div>
-                <div class="colour-two"></div>
-                <div class="colour-three"></div>
-                <div class="colour-four"></div>
-                <div class="colour-five"></div>
-            </div>
-        </div>
-        <div class="swatch-card">
-            <h4 class="user-name">name</h4>
-            <h4 class="like-button">❤</h4>
-            <div>
-                <div class="colour-one"></div>
-                <div class="colour-two"></div>
-                <div class="colour-three"></div>
-                <div class="colour-four"></div>
-                <div class="colour-five"></div>
+            <div class="swatch-card">
+                <div class="card-head">
+                    <h4 class="user-name">name</h4>
+                    <h4 class="like-button">❤</h4>
+                </div>
+                <div class="swatch-colours">
+                    <div class="colour-one"></div>
+                    <div class="colour-two"></div>
+                    <div class="colour-three"></div>
+                    <div class="colour-four"></div>
+                    <div class="colour-five"></div>
+                </div>
             </div>
         </div>
     </main>
