@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>glasshouse - colour palette tool</title>
+    <link rel="stylesheet" href="./CSS/header.css">
+    <link rel="stylesheet" href="./CSS/homepage.css">
+    <link rel="stylesheet" href="./CSS/swatches.css">
+    <link rel="stylesheet" href="./CSS/typography.css">
+    <link rel="stylesheet" href="./CSS/compatibility.css">
+    <link rel="stylesheet" href="./CSS/colour-palette.css">
     <script src="./JS/user.js"></script>
     <script src="./JS/background.js"></script>
     <script src="./JS/colourPalette.js"></script>
@@ -13,9 +20,12 @@
 
 <body>
     <header>
-        <img src="">
-        <h3>User</h3>
-        <h5>Logout</h5>
+        <div id="menu-head">
+            <img src="./images/N&G.jpeg" id="user-icon">
+            <a href="#menu">            <img src="./images/list.png"></a>
+            <h3 class="hidden">User</h3>
+            <h5 class="hidden">Logout</h5>
+        </div>
         <ul>
             <li>Saved Swatches</li>
             <li>Your Swatches</li>
@@ -247,5 +257,10 @@
             </div>
         </div>
     </main>
+
+    <footer>
+        <div>Special thanks to <a href="https://www.freepik.com" title="Freepik">Freepik</a></div>
+    </footer>
 </body>
+
 </html>
