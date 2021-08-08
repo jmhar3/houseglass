@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Glamour-Extended';
+    src: url('../fonts/GlamourAbsolute_Extended.otf');
+}
+
+@font-face {
+    font-family: 'Glamour-Regular';
+    src: url('../fonts/GlamourAbsolute_Regular.otf');
+}
+
+@font-face {
+    font-family: 'Gaffa';
+    src: url('../fonts/HIGaffaSansLight.woff');
+}
+
+h1, h2, h3, h4, h5, p, div, a, button {
+    font-family: 'Glamour-Regular';
+    color: rgb(17, 97, 100);
+}
+
+h4, div, a {
+    font-family: 'Gaffa';
+}
+
+h1 {
+    font-size: 6.9vw;
+}
+
+h2 {
+    font-size: 6vw;
+}
+
+h3 {
+    font-size: 4.5vw;
+}
+
+h4 {
+    font-size: 3.3vw;
+}
+
+h5 {
+    font-size: 2.4vw;
+}
+
+p, div, a {
+    font-size: 2.1vw;
+}
+
+button {
+    font-size: 3vw;
+}
+
+a {
+    text-decoration: none;
+    color: darkcyan;
+}
