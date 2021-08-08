@@ -3,8 +3,8 @@
 }
 
 header img {
-    width: 6.9vw;
-    height: 6.9vw;
+    width: 4.5vw;
+    height: 4.5vw;
     object-fit: fill;
 }
 
@@ -13,15 +13,23 @@ header img:hover {
 }
 
 #menu-head {
-    background-color: rgba(245, 245, 245, 0.986);
+    background-color: rgba(245, 245, 245, 0.12);
     position: fixed;
+    z-index: 1;
     left: 3vw;
     top: 3vw;
     padding: 2.4vw;
-    height: 6.9vw;
+    height: 4.5vw;
     border-radius: 3vw;
     display: flex;
     gap: 3vw;
+    box-shadow: 0 8px 32px 0 rgba(84, 90, 184, 0.09);
+    backdrop-filter: blur( 3.0px );
+    -webkit-backdrop-filter: blur( 3.0px );
+}
+
+#menu-head:hover {
+    box-shadow: 0 8px 32px 0 rgba(84, 90, 184, 0.12);
 }
 
 .hidden {
@@ -30,15 +38,19 @@ header img:hover {
 
 header button {
     position: fixed;
+    z-index: 1;
     top: 4.5vw;
     right: 4.5vw;
-    border: .45vw transparent solid;
     border-radius: 1.5vw;
-    background-color: rgba(245, 245, 245, 0.986);
+    background-color: rgba(245, 245, 245, 0.12);
+    border: none;
     padding: 1.2vw;
+    box-shadow: 0 8px 32px 0 rgba(84, 90, 184, 0.09);
+    backdrop-filter: blur( 3.0px );
+    -webkit-backdrop-filter: blur( 3.0px );
 }
 
 header button:hover {
-    border: .45vw cadetblue solid;
+    box-shadow: 0 8px 32px 0 rgba(84, 90, 184, 0.18);
     cursor: pointer;
 }
