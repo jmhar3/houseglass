@@ -22,19 +22,22 @@
 <body>
     <header>
         <div id="menu-head">
-            <a href="#user">            <img src="./images/N&G.jpeg" id="user-icon"></a>
-            <a href="#menu">            <img src="./images/list.png" id="menu-button"></a>
-            <h3 class="user hidden">You are not signed in.</h3>
-            <h5 class="signup hidden">Sign Up Now</h5>
+            <a href="#user"> <img src="./images/N&G.jpeg" id="user-icon" class="hidden"></a>
+            <a href="#menu"> <img src="./images/list.png" id="menu-button"></a>
+            <div id="user-access">
+                <h5 class="user">You are not signed in.</h5>
+                <p class="signup ">Sign Up Now</p>
+            </div>
         </div>
-        <ul class="navbar hidden">
+        <ul class="navbar">
             <li>Saved Swatches</li>
             <li>Your Swatches</li>
             <li>Your Account</li>
             <li>Make Your Own</li>
         </ul>
-        <button>Make Your Own</button>
     </header>
+
+    <button id="action-button">Make Your Own</button>
 
     <main>
         <div id="featured-swatches">
@@ -224,7 +227,7 @@
     </main>
 
     <footer>
-        <div>Special thanks to <a href="https://www.freepik.com" title="Freepik">Freepik</a></div>
+        <div>Special thanks to <a href="https://www.freepik.com" title="Freepik">Freepik</a>.</div>
     </footer>
 </body>
 
