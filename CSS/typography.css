@@ -16,7 +16,7 @@
 h1, h2, h3, h4, h5, p, div, a, button, li {
     font-family: 'Glamour-Regular';
     font-weight: normal;
-    color: rgb(34, 162, 167);
+    color: rgb(72, 0, 100);
 }
 
 div, a {
@@ -45,6 +45,7 @@ h5 {
 
 p, div, a {
     font-size: 1.5vw;
+    color: rgb(18, 0, 46);
 }
 
 button {
@@ -53,5 +54,5 @@ button {
 
 a {
     text-decoration: none;
-    color: darkcyan;
+    color: rgb(100, 35, 161);
 }

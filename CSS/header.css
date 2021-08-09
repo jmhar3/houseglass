@@ -11,10 +11,7 @@ header img {
     height: 4.5vw;
     object-fit: fill;
     cursor: pointer;
-}
-
-header img:hover {
-    opacity: 90%;
+    opacity: 100%;
 }
 
 header {
@@ -22,17 +19,17 @@ header {
     z-index: 1;
     left: 2.4vw;
     top: 2.4vw;
-    background-color: rgba(245, 245, 245, 0.12);
+    background-color: rgba(245, 245, 245, 0.09);
     box-shadow: 0 8px 32px 0 rgba(84, 90, 184, 0.09);
     backdrop-filter: blur( 3.0px );
     -webkit-backdrop-filter: blur( 3.0px );
     border-radius: 3vw;
+    transition: width 1.2s, height 1.2s;
 }
 
 #menu-head {
-    background-color: rgba(245, 245, 245, 0.12);
-    padding: 1.8vw;
-    padding-left: 0.3vw;
+    background-color: rgba(245, 245, 245, 0.09);
+    padding: 2.1vw;
     padding-bottom: 1.5vw;
     height: 4.5vw;
     border-radius: 3vw;
@@ -45,6 +42,7 @@ header {
 }
 
 #menu-head:hover {
+    background-color: rgba(245, 245, 245, 0.15);
     box-shadow: 0 8px 32px 0 rgba(84, 90, 184, 0.12);
 }
 
@@ -66,7 +64,7 @@ header {
     position: fixed;
     z-index: 1;
     top: 3.9vw;
-    right: 3vw;
+    right: 2.4vw;
     border-radius: 1.5vw;
     background-color: rgba(245, 245, 245, 0.12);
     border: none;
@@ -78,7 +76,8 @@ header {
     -webkit-backdrop-filter: blur( 3.0px );
 }
 
-header button:hover {
+#action-button:hover {
+    background-color: rgba(245, 245, 245, 0.18);
     box-shadow: 0 8px 32px 0 rgba(84, 90, 184, 0.18);
     cursor: pointer;
 }

@@ -1,12 +1,8 @@
-import { ProSidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
-import 'react-pro-sidebar/dist/css/styles.css';
+const userIcon = document.querySelector('#user-icon');
+const menuButton = document.querySelector('#menu-button');
 
-<ProSidebar>
-  <Menu iconShape="square">
-    <MenuItem icon={<FaGem />}>Dashboard</MenuItem>
-    <SubMenu title="Components" icon={<FaHeart />}>
-      <MenuItem>Component 1</MenuItem>
-      <MenuItem>Component 2</MenuItem>
-    </SubMenu>
-  </Menu>
-</ProSidebar>;
+menuButton.addEventListener('click', () => {
+  document.querySelector('#user-icon').classList.toggle('hidden')
+  document.querySelector('#user-access').classList.toggle('hidden')
+  document.querySelector('.navbar').classList.toggle('hidden')
+})
