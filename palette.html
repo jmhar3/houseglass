@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>glasshouse - colour palette tool</title>
+    <link rel="stylesheet" href="./CSS/header.css">
+    <link rel="stylesheet" href="./CSS/general.css">
+    <link rel="stylesheet" href="./CSS/palette.css">
+    <link rel="stylesheet" href="./CSS/typography.css">
+    <link rel="stylesheet" href="./CSS/compatibility.css">
+    <script src="./JS/user.js"></script>
+    <script src="./JS/background.js"></script>
+    <script src="./JS/colourPalette.js"></script>
+    <script src="./JS/homepage.js"></script>
+    <script src="./JS/menu.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="menu-head">
+            <img src="./images/N&G.jpeg" id="user-icon">
+            <img src="./images/list.png" id="menu-button">
+            <div id="user-access" class="hidden">
+                <h5 class="user">You are not signed in.</h5>
+                <p class="signup ">Sign Up Now</p>
+            </div>
+        </div>
+        <ul class="navbar hidden">
+            <li><a href="#index">Explore Swatches</a></li>
+            <li>Your Creations</li>
+            <li>View Account</li>
+            <li><a href="#palette">Make Your Own</a></li>
+        </ul>
+    </header>
+
+    <div id="palette-menu">
+        <div class="palette-menu-items"><img src="./images/right-arrow.png"></div>
+        <div class="palette-menu-items"><img src="./images/plus.png"></div>
+        <div class="palette-menu-items"><img src="./images/save.png"></div>
+    </div>
+
+    <main>
+        <input type="text" placeholder="Name Your Creation" id="name-swatch">
+        <div id="palette-generator">
+            <div class="colour-generator" data-index="0" style="background-color: rgb(107, 64, 46);">
+                <img src="./images/garbage.png">
+                <h5>3WC503</h5>
+            </div>
+            <div class="colour-generator" data-index="1" style="background-color: rgb(216, 108, 7);">
+                <img src="./images/garbage.png">
+                <h5>C3409D</h5>
+            </div>
+            <div class="colour-generator" data-index="2" style="background-color: rgb(207, 169, 151);">
+                <img src="./images/garbage.png">
+                <h5>F09BC3</h5>
+            </div>
+            <div class="colour-generator" data-index="3" style="background-color: rgb(122, 51, 21);">
+                <img src="./images/garbage.png">
+                <h5>2ER6L4</h5>
+            </div>
+            <div class="colour-generator" data-index="4" style="background-color: rgb(44, 13, 0);">
+                <img src="./images/garbage.png">
+                <h5>9F3V76</h5>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div>Special thanks to <a href="https://www.freepik.com" title="Freepik">Freepik</a>.</div>
+    </footer>
+</body>
+
+</html>

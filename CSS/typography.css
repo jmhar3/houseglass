@@ -13,14 +13,10 @@
     src: url('../fonts/HIGaffaSansLight.woff');
 }
 
-h1, h2, h3, h4, h5, p, div, a, button, li {
+h1, h2, h3, h4, h5, p, div, a, button, li, input {
     font-family: 'Glamour-Regular';
     font-weight: normal;
     color: rgb(72, 0, 100);
-}
-
-div, a {
-    font-family: 'Gaffa';
 }
 
 h1 {
@@ -39,11 +35,11 @@ h4, li {
     font-size: 2.1vw;
 }
 
-h5 {
+h5, a, input {
     font-size: 1.8vw;
 }
 
-p, div, a {
+p, div {
     font-size: 1.5vw;
     color: rgb(18, 0, 46);
 }
@@ -54,5 +50,4 @@ button {
 
 a {
     text-decoration: none;
-    color: rgb(100, 35, 161);
 }
