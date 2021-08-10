@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 export default class Swatch extends Component {
     generateHeartElement = () => {
         if (this.props.heartIcon !== null) {
-            return <h4 className="like-button">❤</h4>;
-        } return <h4 className="like-button">❤</h4>
+            return <h4 className="like-button">❤️</h4>;
+        } return <h4 className="like-button">💖</h4>
     }
 
     render() {
@@ -12,7 +12,7 @@ export default class Swatch extends Component {
         <div className="swatch-card" onmouseenter={updateBackground()}>
             <div className="card-head">
                 <h4 className="swatch-name">${this.swatch.name}</h4>
-                <h4 className="like-button">❤</h4>
+                <h4 className="like-button">❤️</h4>
             </div>
             <div className="swatch-colours">
                 <div className="colour-one"></div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import Swatch from './swatches';
+import Menu from './menu'
 
-ReactDOM.render(<Swatch />, document.getElementById('root'));
+ReactDOM.render(<Menu /><Swatch />, document.getElementById('root'));

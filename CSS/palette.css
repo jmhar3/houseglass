@@ -7,7 +7,7 @@
     top: 1.8vw;
 }
 
-.palette-menu-items, input {
+.palette-menu-item, input {
     background-color: rgba(245, 245, 245, 0.09);
     padding: 1.8vw;
     height: 3vw;
@@ -19,13 +19,13 @@
     text-align: center;
 }
 
-.palette-menu-items:hover {
+.palette-menu-item:hover {
     background-color: rgba(245, 245, 245, 0.15);
     box-shadow: 0 8px 32px 0 rgba(84, 90, 184, 0.12);
     cursor: pointer;
 }
 
-.palette-menu-items img {
+.palette-menu-item img {
     width: 3vw;
 }
 
