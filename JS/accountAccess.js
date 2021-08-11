@@ -23,7 +23,7 @@ export default class AccountAccess extends Component {
                 <h3>Create An Account</h3>
                 <input type="text" placeholder="email"></input>
                 <input type="text" placeholder="username"></input>
-                <input type="text" placeholder="password"></input>
+                <input type="password" placeholder="password"></input>
                 <button type="submit">Submit</button>
             </form>
         )

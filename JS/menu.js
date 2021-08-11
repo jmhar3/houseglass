@@ -1,11 +1,21 @@
 import React, { Component } from 'react';
 
 export default class Menu extends Component {
+  constructor(props) {
+    super()
+    this.state(
+      this.props.name: 'name'
+    )
+  }
 
   openMenu = () => {
     document.querySelector('#user-icon').classList.toggle('hidden')
     document.querySelector('#user-access').classList.toggle('hidden')
     document.querySelector('.navbar').classList.toggle('hidden')
+  }
+
+  openModal = () => {
+    document
   }
 
   render() {
@@ -17,24 +27,16 @@ export default class Menu extends Component {
           <img src="./images/list.png" onClick={this.openMenu} id="menu-button" />
 
           <div id="user-access" className="hidden">
-            <h5 className="user">You are not signed in.</h5>
-            <p className="signup ">Sign Up Now</p>
+            <h5 className="user">{this.state.name}</h5>
+            <p onClick={openModal} className="access">Sign Up Now</p>
           </div>
         </div>
-          <ul className="navbar hidden">
-            <li><a href="#index">Explore Swatches</a></li>
-            <li>Your Creations</li>
-            <li><a href="#palette">Make Your Own</a></li>
-          </ul>
+          <div className="navbar hidden">
+            <Link to="/">Explore Swatches</Link>
+            <Link to="/creations">Your Creations</Link>
+            <Link to="/palette">Make Your Own</Link>
+          </div>
       </header>
     );
   }
 }
-
-// if (user !== loggedIn) {
-  // .user.innerText = "You are not signed in."
-  // .signup.innerText = "Sign Up Now"
-// } else {
-  // .user.innerText = `${user.name}`
-  // .signup.innerText = "Logout"
-// }

@@ -75,7 +75,7 @@ main {
     gap: 1vw;
 }
 
-.colour-one, .colour-two, .colour-three, .colour-four, .colour-five {
+.colour-div, .colour-one, .colour-two, .colour-three, .colour-four, .colour-five {
     width: 3.9vw;
     height: 3.9vw;
     border-radius: 90%;

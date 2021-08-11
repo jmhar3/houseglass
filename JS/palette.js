@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { ChromePicker } from 'react-color';
 
-export default class ColourPicker extends Component {
+export default class Palette extends Component {
 
   render() {
     return <ChromePicker />;

@@ -1,7 +1,7 @@
 import React from 'react';
-import { SketchPicker } from 'react-color';
+import { ChromePicker } from 'react-color';
 
-class Component extends React.Component {
+export default class ColourPicker extends React.Component {
   state = {
     background: '#fff',
   };
@@ -12,7 +12,7 @@ class Component extends React.Component {
 
   render() {
     return (
-      <SketchPicker
+      <ChromePicker
         color={ this.state.background }
         onChangeComplete={ this.handleChangeComplete }
       />
